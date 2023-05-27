@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d5f4e6;
+  }
+  
+  header {
+    display: flex;
+    background-color: #618685;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #filters span {
+    display: flex;
+    align-items: center;
+  }
+
+  #filters label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+  }
+
+  #filters input {
+    padding: 3px;
+    font-size: 18px;
+    border: 2px solid #618685;
+    border-radius: 15px;
+  }
+
+  button {
+    padding: 4px 20px;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid #618685;
+    border-radius: 10px;
+  }
+
+  button:hover {
+    background-color: #80ced6;
+  }
+
+  #students-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #students-table th,
+  #students-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #pagination button {
+    margin: 0 5px;
+  }
+  
+  #current-page {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 10px;
+  }
